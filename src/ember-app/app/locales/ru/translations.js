@@ -103,16 +103,16 @@ $.extend(true, translations, {
             caption: 'Бригада',
             title: ''
           },
-          'i-i-s-1235-табель-l': {
-            caption: 'Табель',
-            title: ''
-          },
           'i-i-s-1235-сотрудник-l': {
             caption: 'Сотрудник',
             title: ''
           },
           'i-i-s-1235-должность-l': {
             caption: 'Должность',
+            title: ''
+          },
+          'i-i-s-1235-табель-l': {
+            caption: 'Табель',
             title: ''
           },
           'i-i-s-1235-невыходы-l': {

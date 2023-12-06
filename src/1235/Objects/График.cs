@@ -29,11 +29,11 @@ namespace IIS.1235
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ГрафикE", new string[] {
-            "Конец as \'Конец\'",
-            "Начало as \'Начало\'",
-            "Состояние as \'Состояние\'",
             "Сотрудник as \'Сотрудник\'",
-            "Сотрудник.ФИО as \'ФИО\'"}, Hidden=new string[] {
+            "Сотрудник.ФИО as \'ФИО\'",
+            "Начало as \'Начало смены с\'",
+            "Конец as \'по\'",
+            "Состояние as \'Состояние занятости\'"}, Hidden=new string[] {
             "Сотрудник.ФИО"})]
     [MasterViewDefineAttribute("ГрафикE", "Сотрудник", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     public class График : ICSSoft.STORMNET.DataObject

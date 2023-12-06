@@ -39,14 +39,14 @@
       "modelName": "i-i-s-1235-табель",
       "attrs": [
         {
-          "name": "конецС",
-          "caption": "Конец С",
+          "name": "началоС",
+          "caption": "Начало смены",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "началоС",
-          "caption": "Начало С",
+          "name": "конецС",
+          "caption": "Окончание смены",
           "hidden": false,
           "index": 1
         }

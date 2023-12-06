@@ -34,15 +34,15 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТабельE', 'i-i-s-1235-табель', {
-    конецС: attr('Конец С', { index: 0 }),
-    началоС: attr('Начало С', { index: 1 }),
+    началоС: attr('Начало смены', { index: 0 }),
+    конецС: attr('Окончание смены', { index: 1 }),
     график: hasMany('i-i-s-1235-график', 'График', {
-      конец: attr('Конец', { index: 0 }),
-      начало: attr('Начало', { index: 1 }),
-      состояние: attr('Состояние', { index: 2 }),
       сотрудник: belongsTo('i-i-s-1235-сотрудник', 'Сотрудник', {
-        фИО: attr('ФИО', { index: 4, hidden: true })
-      }, { index: 3, displayMemberPath: 'фИО' })
+        фИО: attr('ФИО', { index: 1, hidden: true })
+      }, { index: 0, displayMemberPath: 'фИО' }),
+      начало: attr('Начало смены с', { index: 2 }),
+      конец: attr('по', { index: 3 }),
+      состояние: attr('Состояние занятости', { index: 4 })
     })
   });
 

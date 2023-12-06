@@ -16,13 +16,6 @@
           "children": null
         },
         {
-          "link": "i-i-s-1235-табель-l",
-          "menuName": null,
-          "caption": "Табель",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-1235-сотрудник-l",
           "menuName": null,
           "caption": "Сотрудник",
@@ -33,6 +26,13 @@
           "link": "i-i-s-1235-должность-l",
           "menuName": null,
           "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-1235-табель-l",
+          "menuName": null,
+          "caption": "Табель",
           "title": "",
           "children": null
         },

@@ -29,8 +29,8 @@ namespace IIS.1235
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТабельE", new string[] {
-            "КонецС as \'Конец С\'",
-            "НачалоС as \'Начало С\'"})]
+            "НачалоС as \'Начало смены\'",
+            "КонецС as \'Окончание смены\'"})]
     [AssociatedDetailViewAttribute("ТабельE", "График", "ГрафикE", true, "", "График", true, new string[] {
             ""})]
     [View("ТабельL", new string[] {

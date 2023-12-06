@@ -41,10 +41,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('БригадаE', 'i-i-s-1235-бригада', {
-    конец: attr('Конец', { index: 0 }),
-    начало: attr('Начало', { index: 1 }),
+    начало: attr('Сформирована с:', { index: 0 }),
+    конец: attr('по:', { index: 1 }),
     назначение: attr('Назначение', { index: 2 }),
-    составБриг: hasMany('i-i-s-1235-состав-бриг', 'Состав бриг', {
+    составБриг: hasMany('i-i-s-1235-состав-бриг', 'Состав бригады', {
       сотрудник: belongsTo('i-i-s-1235-сотрудник', 'Сотрудник', {
         фИО: attr('ФИО', { index: 1, hidden: true })
       }, { index: 0, displayMemberPath: 'фИО' }),

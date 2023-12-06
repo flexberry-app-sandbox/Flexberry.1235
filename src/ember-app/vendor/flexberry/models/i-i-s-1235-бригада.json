@@ -48,14 +48,14 @@
       "modelName": "i-i-s-1235-бригада",
       "attrs": [
         {
-          "name": "конец",
-          "caption": "Конец",
+          "name": "начало",
+          "caption": "Сформирована с:",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "начало",
-          "caption": "Начало",
+          "name": "конец",
+          "caption": "по:",
           "hidden": false,
           "index": 1
         },
@@ -70,7 +70,7 @@
       "hasMany": [
         {
           "projectionName": "СоставБригE",
-          "caption": "Состав бриг",
+          "caption": "Состав бригады",
           "name": "составБриг",
           "relatedTo": "i-i-s-1235-состав-бриг",
           "inverse": null

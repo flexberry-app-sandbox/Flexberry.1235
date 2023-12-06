@@ -29,10 +29,10 @@ namespace IIS.1235
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("БригадаE", new string[] {
-            "конец as \'Конец\'",
-            "начало as \'Начало\'",
+            "начало as \'Сформирована с:\'",
+            "конец as \'по:\'",
             "назначение as \'Назначение\'"})]
-    [AssociatedDetailViewAttribute("БригадаE", "СоставБриг", "СоставБригE", true, "", "Состав бриг", true, new string[] {
+    [AssociatedDetailViewAttribute("БригадаE", "СоставБриг", "СоставБригE", true, "", "Состав бригады", true, new string[] {
             ""})]
     [View("БригадаL", new string[] {
             "конец as \'Конец\'",

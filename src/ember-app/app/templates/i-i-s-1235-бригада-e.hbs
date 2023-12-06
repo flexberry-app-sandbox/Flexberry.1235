@@ -27,22 +27,22 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.конец
-      class=(if (v-get validationModel "конец" "isInvalid") "error")
-      label=(t "forms.i-i-s-1235-бригада-e.конец-caption")
-      data-test-i-i-s-1235-бригада-e-конец=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "конец" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
       value=model.начало
       class=(if (v-get validationModel "начало" "isInvalid") "error")
       label=(t "forms.i-i-s-1235-бригада-e.начало-caption")
       data-test-i-i-s-1235-бригада-e-начало=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "начало" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.конец
+      class=(if (v-get validationModel "конец" "isInvalid") "error")
+      label=(t "forms.i-i-s-1235-бригада-e.конец-caption")
+      data-test-i-i-s-1235-бригада-e-конец=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "конец" "message")}}
   </div>
   <div class="field">
     {{flexberry-field

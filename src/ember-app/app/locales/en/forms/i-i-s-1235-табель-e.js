@@ -1,6 +1,6 @@
 export default {
   caption: 'Табель',
-  'конецС-caption': 'Конец С',
   'началоС-caption': 'Начало С',
+  'конецС-caption': 'Конец С',
   'график-caption': 'График'
 };
