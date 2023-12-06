@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-1235-бригада-e",
+  "editForm": "i-i-s-1235-бригада-e",
+  "external": false,
+  "caption": "Бригада",
+  "name": "IIS1235БригадаL",
+  "className": "БригадаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-1235-бригада",
+      "modelProjection": "БригадаL"
+    }
+  ]
+}

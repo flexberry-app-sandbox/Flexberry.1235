@@ -1,0 +1,89 @@
+﻿{
+  "name": "IIS1235Табель",
+  "modelName": "i-i-s-1235-табель",
+  "className": "Табель",
+  "nameSpace": "IIS.1235",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "конецС",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "началоС",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "график",
+      "relatedTo": "i-i-s-1235-график",
+      "inverse": "табель"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ТабельE",
+      "modelName": "i-i-s-1235-табель",
+      "attrs": [
+        {
+          "name": "конецС",
+          "caption": "Конец С",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "началоС",
+          "caption": "Начало С",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ГрафикE",
+          "caption": "График",
+          "name": "график",
+          "relatedTo": "i-i-s-1235-график",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ТабельL",
+      "modelName": "i-i-s-1235-табель",
+      "attrs": [
+        {
+          "name": "конецС",
+          "caption": "Конец С",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "началоС",
+          "caption": "Начало С",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

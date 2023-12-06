@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-1235-табель-e",
+  "editForm": "i-i-s-1235-табель-e",
+  "external": false,
+  "caption": "Табель",
+  "name": "IIS1235ТабельL",
+  "className": "ТабельL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-1235-табель",
+      "modelProjection": "ТабельL"
+    }
+  ]
+}

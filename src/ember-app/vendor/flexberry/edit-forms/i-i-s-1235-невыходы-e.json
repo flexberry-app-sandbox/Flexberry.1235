@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Невыходы",
+  "name": "IIS1235НевыходыE",
+  "className": "НевыходыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-1235-невыходы",
+      "modelProjection": "НевыходыE"
+    }
+  ]
+}

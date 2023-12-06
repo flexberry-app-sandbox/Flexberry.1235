@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "сотрудник",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "График.Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": "i-i-s-1235-график"
+    }
+  ],
+  "external": false,
+  "caption": "Табель",
+  "name": "IIS1235ТабельE",
+  "className": "ТабельE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-1235-табель",
+      "modelProjection": "ТабельE"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "1235",
+  "applicationTitle": "1235",
+  "items": [
+    {
+      "link": null,
+      "menuName": "1235",
+      "caption": "1235",
+      "title": "1235",
+      "children": [
+        {
+          "link": "i-i-s-1235-бригада-l",
+          "menuName": null,
+          "caption": "Бригада",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-1235-табель-l",
+          "menuName": null,
+          "caption": "Табель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-1235-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-1235-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-1235-невыходы-l",
+          "menuName": null,
+          "caption": "Невыходы",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

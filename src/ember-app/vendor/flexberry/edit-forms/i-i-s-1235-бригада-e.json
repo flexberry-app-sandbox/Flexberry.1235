@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "сотрудник",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "СоставБриг.Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": "i-i-s-1235-состав-бриг"
+    },
+    {
+      "master": "должность",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставБриг.Должность",
+      "projection": "ДолжностьL",
+      "detailModelName": "i-i-s-1235-состав-бриг"
+    }
+  ],
+  "external": false,
+  "caption": "Бригада",
+  "name": "IIS1235БригадаE",
+  "className": "БригадаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-1235-бригада",
+      "modelProjection": "БригадаE"
+    }
+  ]
+}

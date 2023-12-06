@@ -1,0 +1,1 @@
+docker-compose -p 1235-java down
